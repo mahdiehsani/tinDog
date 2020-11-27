@@ -17,17 +17,17 @@ h1{
 
 }
 h2{
-    font-family: "montserrat-bold";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700 !important;
     font-size: 3rem !important;
     line-height: 1.5 !important;
 }
 h3{
-    font-family: "montserrat-bold";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700 !important;
 }
 .container-fluid {
-    padding: 3% 15% !important;
+    padding: 3% 15% 7% !important;
     
 }
 /* Navigation Bar */
@@ -54,13 +54,20 @@ h3{
 .title-image{
     width: 60% !important;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 
 }
 /* Feature */
 #features{
     padding: 7% 15%;
+    background-color: #fff !important;
+    position: relative;
+    
+}
+.feature-box{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    padding: 4.5%;
 }
 .fa-3x{
     margin-bottom: 20px !important;
@@ -97,3 +104,42 @@ h3{
     width: 15%;
     margin: 20px 20px 50px;
 }
+/* Pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-colum{
+    padding: 3% 2%;
+}
+/* CTA section */
+#cta {
+    padding: 7% 15%;
+    background-color: #a3d2ca;
+    text-align: center;
+    color: #fff;
+}
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+ /* Footer section */
+ #footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+}
+
